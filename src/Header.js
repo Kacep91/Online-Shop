@@ -1,15 +1,64 @@
+import { unmountComponentAtNode } from "react-dom";
 import React, { Component } from 'react';
 import TelephoneIcon from './pictures/telephone.png';
 import Gretong from './pictures/gretong.png';
 import CartIcon from './pictures/cart.png';
 import SearchIcon from './pictures/search.png';
+import Body from "./Body";
+import ReactDOM from 'react-dom';
+import Arrivals from "./Arrivals";
+import Tuxedo from "./Tuxedo";
+import Sweater from "./Sweater";
+import Shoes from "./Shoes";
+import Glasses from "./Glasses";
+import TShirt from "./TShirt";
+import Watches from "./Watches";
 
 class Header extends Component {
   state ={
 
   
   }
+  
+  loadHome = () => {
+  unmountComponentAtNode(document.getElementById('gallery'));
+  ReactDOM.render (<Body />, document.getElementById('gallery')) ;
+  }
 
+  loadNewArrivals = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Arrivals />, document.getElementById('gallery')) 
+  }
+
+  loadTuxedo = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Tuxedo />, document.getElementById('gallery')) ;
+  }
+
+  loadSweater = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Sweater />, document.getElementById('gallery')) ;
+  }
+
+  loadShoes = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Shoes />, document.getElementById('gallery')) ;
+  }
+
+  loadGlasses = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Glasses />, document.getElementById('gallery')) ;
+  }
+
+  loadTShirt = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<TShirt />, document.getElementById('gallery')) ;
+  }
+
+  loadWatches = () => {
+    unmountComponentAtNode(document.getElementById('gallery'));
+    ReactDOM.render (<Watches />, document.getElementById('gallery')) ;
+  }
 
   render() {
     return (
@@ -56,15 +105,14 @@ class Header extends Component {
             </div>
             </div>
           <div className="nav">
-          <button className = "btn-nav">HOME</button>
-          <button className = "btn-nav" id="arrivals">NEW ARRIVALS</button>
-          <button className = "btn-nav">TUXEDO</button>
-          <button className = "btn-nav">SWEATER</button>
-          <button className = "btn-nav">SHOES</button>
-          <button className = "btn-nav">GLASSES</button>
-          <button className = "btn-nav">T-SHIRT</button>
-          <button className = "btn-nav">HOME</button>
-          <button className = "btn-nav">WATCHES</button>
+          <button className = "btn-nav" onClick={this.loadHome}>HOME</button>
+          <button className = "btn-nav" onClick={this.loadNewArrivals} id="arrivals">NEW ARRIVALS</button>
+          <button className = "btn-nav" onClick={this.loadTuxedo}>TUXEDO</button>
+          <button className = "btn-nav" onClick={this.loadSweater}>SWEATER</button>
+          <button className = "btn-nav" onClick={this.loadShoes}>SHOES</button>
+          <button className = "btn-nav" onClick={this.loadGlasses}>GLASSES</button>
+          <button className = "btn-nav" onClick={this.loadTShirt}>T-SHIRT</button>
+          <button className = "btn-nav" onClick={this.loadWatches} >WATCHES</button>
           </div>
         </div>
         </div>
