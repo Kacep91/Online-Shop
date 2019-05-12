@@ -14,6 +14,7 @@ import Glasses from "./Glasses";
 import TShirt from "./TShirt";
 import Watches from "./Watches";
 
+
 class Header extends Component {
   state ={
 
@@ -60,6 +61,8 @@ class Header extends Component {
     ReactDOM.render (<Watches />, document.getElementById('gallery')) ;
   }
 
+
+
   render() {
     return (
       <div>
@@ -67,9 +70,9 @@ class Header extends Component {
         <div className="info-tab">
           <div className="header-justify">
             <div className="header-part-1">
-              <p>Help</p>
-              <p>Contact</p>
-              <p>Delivery Information</p>
+              <a href="#" id="menu"><p id="nav-text">Help</p></a>
+              <a href="#" id="menu"><p id="nav-text">Contact</p></a>
+              <a href="#" id="menu"><p id="nav-text">Delivery Information</p></a>
             </div>
             <div className="header-part-2">
               <img className="img-icon" src={TelephoneIcon} alt="cart" />
@@ -80,9 +83,7 @@ class Header extends Component {
         
         <div className="control-bar">
           <div className="gretong-logo">
-            {/* <p className="gretong">GRETONG</p>
-            <p className="online-store">ONLINE STORE</p> */}
-            <img src={Gretong} alt="Gretong-logo" />
+          <a href="#" id="menu"><img src={Gretong} alt="Gretong-logo" /></a>
           </div> 
           
           <div>
@@ -100,7 +101,7 @@ class Header extends Component {
             <div className="search">
               <form>
                 <input type="search" placeholder="Search"/>
-                <input type="submit" value=""/>
+                <input type="submit" value="" src={SearchIcon}/>
               </form>
             </div>
             </div>
