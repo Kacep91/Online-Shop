@@ -29,38 +29,38 @@ class Body extends Component {
   }
 
     loadTuxedo = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<Tuxedo />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<Tuxedo />, document.getElementById('render-block'));
     }
   
     loadSweater = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<Sweater />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<Sweater />, document.getElementById('render-block')) ;
     }
   
     loadShoes = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<Shoes />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<Shoes />, document.getElementById('render-block')) ;
     }
   
     loadGlasses = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<Glasses />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<Glasses />, document.getElementById('render-block')) ;
     }
   
     loadTShirt = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<TShirt />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<TShirt />, document.getElementById('render-block')) ;
     }
   
     loadWatches = () => {
-      unmountComponentAtNode(document.getElementById('gallery'));
-      ReactDOM.render (<Watches />, document.getElementById('gallery')) ;
+      unmountComponentAtNode(document.getElementById('render-block'));
+      ReactDOM.render (<Watches />, document.getElementById('render-block')) ;
     }
 
   loadNewArrivals = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Arrivals />, document.getElementById('gallery')) 
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Arrivals />, document.getElementById('render-block')) 
   }
   
   
@@ -91,7 +91,7 @@ class Body extends Component {
         </div>
         <div className = "row-2">
           <div className = "picture-long">
-            <img src={pictureLong} alt="A long picture" />
+            <img src={pictureLong} alt="placeholder" />
             <div className="picture-gradient"></div>
             <div className="picture-text">
               <p className="text-picture-middle-big">SWEATER</p>
@@ -100,7 +100,7 @@ class Body extends Component {
             </div>
           </div>
           <div className = "picture-small">
-            <img src={pictureSmallOne} alt="A small picture" />
+            <img src={pictureSmallOne} alt="placeholder" />
             <div className="picture-gradient"></div>
             <div className="picture-text-2">
               <p className="text-bottom-big">Trekking Shoes</p>
@@ -110,7 +110,7 @@ class Body extends Component {
         </div>
         <div className = "row-3">
           <div className = "picture-small">
-            <img src={pictureSmallTwo} alt="A small picture" />
+            <img src={pictureSmallTwo} alt="placeholder" />
             <div className="picture-gradient"></div>
             <div className="picture-text-2">
               <p className="text-bottom-big">Casual Glasses</p>
@@ -118,7 +118,7 @@ class Body extends Component {
               </div>
           </div>
           <div className = "picture-small">
-            <img src={pictureSmallThree} alt="A small picture" />
+            <img src={pictureSmallThree} alt="placeholder" />
             <div className="picture-gradient"></div>
             <div className="picture-text">
                 <p className="text-picture-middle-big-2">FRESH LOOK T-SHIRT</p>
@@ -126,7 +126,7 @@ class Body extends Component {
             </div>
           </div>
           <div className = "picture-small">
-          <img src={pictureSmallFour} alt="A small picture" />
+          <img src={pictureSmallFour} alt="placeholder" />
           <div className="picture-gradient"></div>
             <div className="picture-text-2">
               <p className="text-bottom-big">Elegant Watches</p>

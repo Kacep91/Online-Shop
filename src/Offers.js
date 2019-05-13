@@ -22,7 +22,7 @@ class Offers extends Component {
         </div>
         <div className = "offers-items">
           <div className="offers-item">
-            <img className="offers-picture" src={pictureOffersOne} alt="A small picture" />
+            <img className="offers-picture" src={pictureOffersOne} alt="Offers" />
             <div className="picture-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "offers-item-under-text">
               <p>Lorem ipsum dolor</p>
@@ -30,7 +30,7 @@ class Offers extends Component {
             </div>
           </div>
           <div className="offers-item">
-            <img className="offers-picture" src={pictureOffersTwo} alt="A small picture" />
+            <img className="offers-picture" src={pictureOffersTwo} alt="Offers" />
             <div className="picture-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "offers-item-under-text">
               <p>Consectetur adipis</p>
@@ -38,7 +38,7 @@ class Offers extends Component {
             </div>
           </div>
           <div className="offers-item">
-            <img className="offers-picture" src={pictureOffersThree} alt="A small picture" />
+            <img className="offers-picture" src={pictureOffersThree} alt="Offers" />
             <div className="picture-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "offers-item-under-text">
               <p>Commodo consequat</p>
@@ -46,7 +46,7 @@ class Offers extends Component {
             </div>
           </div>
           <div className="offers-item">
-            <img className="offers-picture" src={pictureOffersFour} alt="A small picture" />
+            <img className="offers-picture" src={pictureOffersFour} alt="Offers" />
             <div className="picture-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "offers-item-under-text">
               <p>Voluptate velit</p>

@@ -5,13 +5,14 @@ import pictureTuxedoThree from './pictures/Tuxedo-3.jpg';
 import pictureTuxedoFour from './pictures/Tuxedo-4.jpg';
 
 
+
 export class Tuxedo extends Component {
   render() {
-    return (
-      <div>
-        <div className = "detail-items">
+  return (
+    <div >
+          <div className = "detail-items">
           <div className="detail-item">
-            <img className="detail-picture" src={pictureTuxedoOne} alt="A small picture" />
+            <img className="detail-picture" src={pictureTuxedoOne} alt="Tuxedo" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Lorem ipsum dolor </p>
@@ -20,7 +21,7 @@ export class Tuxedo extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureTuxedoTwo} alt="A small picture" />
+            <img className="detail-picture" src={pictureTuxedoTwo} alt="Tuxedo" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Consectetur adipis</p>
@@ -29,7 +30,7 @@ export class Tuxedo extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureTuxedoThree} alt="A small picture" />
+            <img className="detail-picture" src={pictureTuxedoThree} alt="Tuxedo" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Commodo consequat</p>
@@ -38,7 +39,7 @@ export class Tuxedo extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureTuxedoFour} alt="A small picture" />
+            <img className="detail-picture" src={pictureTuxedoFour} alt="Tuxedo" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Voluptate velit</p>
@@ -48,8 +49,10 @@ export class Tuxedo extends Component {
           </div>
         </div>
       </div>
+      
     )
   }
-}
+};
+
 
 export default Tuxedo;

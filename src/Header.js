@@ -20,45 +20,46 @@ class Header extends Component {
 
   
   }
-  
+ 
   loadHome = () => {
-  unmountComponentAtNode(document.getElementById('gallery'));
-  ReactDOM.render (<Body />, document.getElementById('gallery')) ;
+  unmountComponentAtNode(document.getElementById('render-block'));
+  ReactDOM.render (<Body />, document.getElementById('render-block')) ;
   }
 
   loadNewArrivals = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Arrivals />, document.getElementById('gallery')) 
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Arrivals />, document.getElementById('render-block')) ;
   }
 
   loadTuxedo = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Tuxedo />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Tuxedo />, document.getElementById('render-block'));
+    
   }
 
   loadSweater = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Sweater />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Sweater />, document.getElementById('render-block')) ;
   }
 
   loadShoes = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Shoes />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Shoes />, document.getElementById('render-block')) ;
   }
 
   loadGlasses = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Glasses />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Glasses />, document.getElementById('render-block')) ;
   }
 
   loadTShirt = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<TShirt />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<TShirt />, document.getElementById('render-block')) ;
   }
 
   loadWatches = () => {
-    unmountComponentAtNode(document.getElementById('gallery'));
-    ReactDOM.render (<Watches />, document.getElementById('gallery')) ;
+    unmountComponentAtNode(document.getElementById('render-block'));
+    ReactDOM.render (<Watches />, document.getElementById('render-block')) ;
   }
 
 

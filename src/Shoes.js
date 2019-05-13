@@ -10,7 +10,7 @@ export class Shoes extends Component {
       <div>
         <div className = "detail-items">
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureShoesOne} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureShoesOne} alt="Shoes" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Lorem ipsum dolor </p>
@@ -19,7 +19,7 @@ export class Shoes extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureShoesTwo} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureShoesTwo} alt="Shoes" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Consectetur adipis</p>
@@ -28,7 +28,7 @@ export class Shoes extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureShoesThree} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureShoesThree} alt="Shoes" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Commodo consequat</p>
@@ -37,7 +37,7 @@ export class Shoes extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureShoesFour} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureShoesFour} alt="Shoes" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Voluptate velit</p>

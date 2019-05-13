@@ -10,7 +10,7 @@ export class Sweater extends Component {
       <div>
         <div className = "detail-items">
           <div className="detail-item">
-            <img className="detail-picture" src={pictureSweaterOne} alt="A small picture" />
+            <img className="detail-picture" src={pictureSweaterOne} alt="Sweater" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Lorem ipsum dolor </p>
@@ -19,7 +19,7 @@ export class Sweater extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureSweaterTwo} alt="A small picture" />
+            <img className="detail-picture" src={pictureSweaterTwo} alt="Sweater" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Consectetur adipis</p>
@@ -28,7 +28,7 @@ export class Sweater extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureSweaterThree} alt="A small picture" />
+            <img className="detail-picture" src={pictureSweaterThree} alt="Sweater" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Commodo consequat</p>
@@ -37,7 +37,7 @@ export class Sweater extends Component {
             </div>
           </div>
           <div className="detail-item">
-            <img className="detail-picture" src={pictureSweaterFour} alt="A small picture" />
+            <img className="detail-picture" src={pictureSweaterFour} alt="Sweater" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Voluptate velit</p>

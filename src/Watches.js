@@ -11,7 +11,7 @@ export class Watches extends Component {
       <div>
         <div className = "detail-items">
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureWatchOne} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureWatchOne} alt="Watches" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Lorem ipsum dolor </p>
@@ -20,7 +20,7 @@ export class Watches extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureWatchTwo} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureWatchTwo} alt="Watches" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Consectetur adipis</p>
@@ -29,7 +29,7 @@ export class Watches extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureWatchThree} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureWatchThree} alt="Watches" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Commodo consequat</p>
@@ -38,7 +38,7 @@ export class Watches extends Component {
             </div>
           </div>
           <div className="detail-item-small">
-            <img className="detail-picture-small" src={pictureWatchFour} alt="A small picture" />
+            <img className="detail-picture-small" src={pictureWatchFour} alt="Watches" />
             <div className="detail-gradient-small"><p className="text-center-big">VIEW</p></div>
             <div className = "detail-item-under-text">
               <p>Voluptate velit</p>

@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <div className="container">
         <Header />
+        <div id="render-block">
         <Body />
+        </div>
         <Offers />
         <Footer />       
       </div>
